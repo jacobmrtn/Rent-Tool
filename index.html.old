@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Owner Info</legend>
+        <select name="owner-name-select" id="owner_name_select">
+            <option>Select Owner --</option>
+            <option value="jacob_martin">Jacob Martin</option>
+            <option value="jacob_martin">Jacob Martin</option>
+            <option value="jacob_martin">Jacob Martin</option>
+            <option value="jacob_martin">Jacob Martin</option>
+        </select>
+        <select name="owner-address-select" id="owner_address_select">
+            <option>Select Owners Address --</option>
+            <option value="35_corliss_ave">35 Corliss Ave</option>
+            <option value="35_corliss_ave">35 Corliss Ave</option>
+            <option value="35_corliss_ave">35 Corliss Ave</option>
+            <option value="35_corliss_ave">35 Corliss Ave</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Tenent Info</legend>
+        <select name="tenant-name-select" id="tenant_name_select">
+            <option>Select Tenant --</option>
+            <option value="ryan_yamin">Ryan Yamin</option>
+            <option value="ryan_yamin">Ryan Yamin</option>
+            <option value="ryan_yamin">Ryan Yamin</option>
+            <option value="ryan_yamin">Ryan Yamin</option>
+            <option value="ryan_yamin">Ryan Yamin</option>
+        </select>
+        <select name="tenant-address-select" id="tenant_address_select">
+            <option>Select Tenants Address</option>
+            <option value="20_delatour_road">20 Delatour Road</option>
+            <option value="20_delatour_road">20 Delatour Road</option>
+            <option value="20_delatour_road">20 Delatour Road</option>
+            <option value="20_delatour_road">20 Delatour Road</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Apartment Info</legend>
+        <p>$<input type="number" name="rent-due-amount" id="rent_due_amount" placeholder="Enter Rents Due"></p>
+        <p>$<input type="number" name="rent-due-month-one" id="rent_due_month_one" placeholder="Enter Month One"></p>
+        <p>$<input type="number" name="rent-due-month-two" id="rent_due_month_two" placeholder="Enter Month Two"></p>
+    </fieldset>
+</body>
+</html>

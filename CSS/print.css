@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    margin: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-align {
+    text-align: right;
+}
+
+.right-align.thanks {
+    margin-right: 25%;
+}
+
+.right-align.owners-name {
+    margin-right: 15%;
+}

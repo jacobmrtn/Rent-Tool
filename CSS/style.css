@@ -1,0 +1,48 @@
+body {
+    margin: 0;  
+}
+
+table, nav{
+    margin: 10px;
+}
+
+nav {
+    margin-top: 2px;
+}
+
+th {
+    background-color: antiquewhite;
+    padding: 0px 10px 0px 10px;
+}
+
+td {
+    width: fit-content;
+    height: 15px;
+    padding-right: 25px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#late_notice_svg {
+    margin-left: 5px;
+    cursor:auto;
+   background-color: #f44336;
+}
+
+
+.status-bar {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.status-bar.enabled {
+    background-color: green;
+}
+
+[data-checked] {
+    cursor: pointer;
+}
